@@ -97,7 +97,7 @@ Example: Maze Route
    <img src="media/orbslam_mono_maze.png" alt="ORB-SLAM3 Trajectory vs Ground Truth in Maze Route" style="width: 45%;" />
 </div>
 
-## ORBSLAM3 Demo
+## ORBSLAM3 Demo (2X Speed)
 <p align="center">
   <img src="media/ORBSLAM_demo_2X.gif" alt="ORB-SLAM3 Demo" width="90%">
 </p>
