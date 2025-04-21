@@ -13,7 +13,13 @@ This project explores the implementation and performance evaluation of ORB-SLAM3
 ## How to use MBot for data acquisition
 
 ### 1. MBot Setup
-Follow [this guide](https://mbot.robotics.umich.edu/docs/hardware/classic/) to set up your MBot.
+ - 1.1 Clone the MBot repo
+    ```bash
+    $ mkdir mbot_ws
+    $ cd mbot/mbot_ws/
+    $ git clone https://github.com/yuic2000/mbot_orbslam.git
+    ```
+ - 1.2 Follow [this guide](https://rob550-docs.github.io/docs/botlab/mbot-system-setup-Pi5) to set up your MBot.
 
 ### 2. Run MBot in real-world environment
  - 2.1 Run LiDAR Slam
@@ -55,7 +61,7 @@ $ python3 read_lcm_log_orbslam.py -f [path/to/logFile] -p [path/to/desried/datas
 ## How to run ORB-SLAM3
 
 ### 1. ORB-SLAM3 Docker Setup
-Follow [this guide](https://github.com/jahaniam/orbslam3_docker) to install ORB-SLAM3 Docker.
+Follow [this guide](https://github.com/yuic2000/MBot_ORB-SLAM3_docker.git) to install ORB-SLAM3 Docker.
 
 ### 2. Run ORB-SLAM3 Docker Image
 ```bash
