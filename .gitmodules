@@ -1,0 +1,6 @@
+[submodule "MBot"]
+	path = MBot
+	url = https://github.com/yuic2000/mbot_orbslam.git
+[submodule "ORBSLAM3_docker"]
+	path = ORBSLAM3_docker
+	url = https://github.com/yuic2000/MBot_ORB-SLAM3_docker.git
