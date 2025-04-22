@@ -10,6 +10,13 @@ This project explores the implementation and performance evaluation of ORB-SLAM3
 
 ---  
 
+## ORB-SLAM3 Demo (2X Speed)
+<p align="center">
+  <img src="media/ORBSLAM_demo_2X.gif" alt="ORB-SLAM3 Demo" width="90%">
+</p>
+
+---  
+
 ## How to use MBot for data acquisition
 
 ### 1. MBot Setup
@@ -61,7 +68,7 @@ $ python3 read_lcm_log_orbslam.py -f [path/to/logFile] -p [path/to/desried/datas
 ## How to run ORB-SLAM3
 
 ### 1. ORB-SLAM3 Docker Setup
-Follow [this guide](https://github.com/yuic2000/MBot_ORB-SLAM3_docker.git) to install ORB-SLAM3 Docker.
+Follow [this repository](https://github.com/yuic2000/MBot_ORB-SLAM3_docker.git) to install ORB-SLAM3 Docker.
 
 ### 2. Run ORB-SLAM3 Docker Image
 ```bash
@@ -96,6 +103,8 @@ Example: Maze Route
    <img src="media/maze_env.jpg" alt="Maze Route" style="width: 45%;" />
    <img src="media/orbslam_mono_maze.png" alt="ORB-SLAM3 Trajectory vs Ground Truth in Maze Route" style="width: 45%;" />
 </div>
+
+
 
 ## References
 [1] C. Campos, R. Elvira, J. J. G´omez Rodr´ıguez, J. M. M. Mon-
